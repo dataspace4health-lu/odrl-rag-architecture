@@ -1,0 +1,25 @@
+Run: run_1C
+Scenario: S1 retest after prompt revision
+Requirement status: required (prompt iteration)
+Prompt version: v5
+Timestamp shown in session: 11:01PM
+Parameters: temperature 0.1 (both models) · top-p 1 · max length 500 · no stop sequence
+Result: PARTIAL / PARTIAL
+
+--- ChatGPT 4o ---
+Tokens: 2567
+Cost: $0.0040765
+Characters: 1654
+Words: 158
+Status: complete
+
+--- Claude 4.6 Sonnet ---
+Tokens: 1610
+Cost: $0.005238
+Characters: 1734
+Words: 34
+Status: truncated_at_platform_limit
+
+Note: token and cost values are recorded exactly as displayed by the Prompt
+Sandbox. The platform does not document whether "Tokens" counts input, output or
+both, so no reinterpretation is offered.

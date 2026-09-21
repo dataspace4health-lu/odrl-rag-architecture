@@ -1,0 +1,25 @@
+Run: run_1B
+Scenario: S1 temperature contrast
+Requirement status: required (parameter comparison)
+Prompt version: v4.1
+Timestamp shown in session: 10:51PM
+Parameters: temperature ChatGPT 4o 0.8 · Claude 4.6 Sonnet 0.1 (incidental repeat, UI forced) · top-p 1 · max length 500 · no stop sequence
+Result: FAIL — identical substantive failures to Run 1A
+
+--- ChatGPT 4o ---
+Tokens: 2226
+Cost: $0.0035405
+Characters: 1634
+Words: 111
+Status: complete
+
+--- Claude 4.6 Sonnet ---
+Tokens: 1375
+Cost: $0.004545
+Characters: 1711
+Words: 36
+Status: truncated_at_platform_limit
+
+Note: token and cost values are recorded exactly as displayed by the Prompt
+Sandbox. The platform does not document whether "Tokens" counts input, output or
+both, so no reinterpretation is offered.

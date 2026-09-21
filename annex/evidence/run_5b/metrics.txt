@@ -1,0 +1,25 @@
+Run: run_5b
+Scenario: S5 ablation
+Requirement status: OPTIONAL
+Prompt version: v6 with the TRUST MODEL block removed
+Timestamp shown in session: 11:24PM
+Parameters: temperature 0.1 (both models) · top-p 1 · max length 500 · no stop sequence
+Result: No observable degradation versus Run 5
+
+--- ChatGPT 4o ---
+Tokens: 2129
+Cost: $0.003457
+Characters: 2151
+Words: 144
+Status: complete
+
+--- Claude 4.6 Sonnet ---
+Tokens: 1007
+Cost: $0.003549
+Characters: 1751
+Words: 44
+Status: truncated_at_platform_limit
+
+Note: token and cost values are recorded exactly as displayed by the Prompt
+Sandbox. The platform does not document whether "Tokens" counts input, output or
+both, so no reinterpretation is offered.

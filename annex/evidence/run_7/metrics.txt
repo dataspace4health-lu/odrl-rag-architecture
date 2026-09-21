@@ -1,0 +1,25 @@
+Run: run_7
+Scenario: S7 cross-card contamination
+Requirement status: OPTIONAL
+Prompt version: v6
+Timestamp shown in session: 11:28PM
+Parameters: temperature 0.1 (both models) · top-p 1 · max length 500 · no stop sequence
+Result: FAIL / PARTIAL (truncated)
+
+--- ChatGPT 4o ---
+Tokens: 1700
+Cost: $0.0027245
+Characters: 1329
+Words: 55
+Status: complete
+
+--- Claude 4.6 Sonnet ---
+Tokens: 890
+Cost: $0.003642
+Characters: 1793
+Words: 81
+Status: truncated_at_platform_limit
+
+Note: token and cost values are recorded exactly as displayed by the Prompt
+Sandbox. The platform does not document whether "Tokens" counts input, output or
+both, so no reinterpretation is offered.

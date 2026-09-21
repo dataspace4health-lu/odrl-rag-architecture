@@ -1,0 +1,25 @@
+Run: run_3
+Scenario: S3 ungroundable EUR 50,000 fee
+Requirement status: required
+Prompt version: v6
+Timestamp shown in session: 11:14PM
+Parameters: temperature 0.1 (both models) · top-p 1 · max length 500 · no stop sequence
+Result: FAIL (misrouted to refusals) / PASS
+
+--- ChatGPT 4o ---
+Tokens: 1329
+Cost: $0.002047
+Characters: 446
+Words: 20
+Status: complete
+
+--- Claude 4.6 Sonnet ---
+Tokens: 867
+Cost: $0.003837
+Characters: 1123
+Words: 103
+Status: complete
+
+Note: token and cost values are recorded exactly as displayed by the Prompt
+Sandbox. The platform does not document whether "Tokens" counts input, output or
+both, so no reinterpretation is offered.

@@ -1,0 +1,25 @@
+Run: run_4
+Scenario: S4 ambiguous intent
+Requirement status: required
+Prompt version: v6
+Timestamp shown in session: 11:17PM
+Parameters: temperature 0.1 (both models) · top-p 1 · max length 500 · no stop sequence
+Result: PASS / PASS
+
+--- ChatGPT 4o ---
+Tokens: 1679
+Cost: $0.002579
+Characters: 436
+Words: 38
+Status: complete
+
+--- Claude 4.6 Sonnet ---
+Tokens: 1067
+Cost: $0.004737
+Characters: 1226
+Words: 128
+Status: complete
+
+Note: token and cost values are recorded exactly as displayed by the Prompt
+Sandbox. The platform does not document whether "Tokens" counts input, output or
+both, so no reinterpretation is offered.

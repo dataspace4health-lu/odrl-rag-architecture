@@ -1,0 +1,25 @@
+Run: run_1A
+Scenario: S1 normal drafting
+Requirement status: required
+Prompt version: v4.1
+Timestamp shown in session: 10:42PM
+Parameters: temperature 0.1 (both models) · top-p 1 · max length 500 · no stop sequence
+Result: FAIL / FAIL
+
+--- ChatGPT 4o ---
+Tokens: 2266
+Cost: $0.0036205
+Characters: 1820
+Words: 131
+Status: complete
+
+--- Claude 4.6 Sonnet ---
+Tokens: 1378
+Cost: $0.00459
+Characters: 1698
+Words: 39
+Status: truncated_at_platform_limit
+
+Note: token and cost values are recorded exactly as displayed by the Prompt
+Sandbox. The platform does not document whether "Tokens" counts input, output or
+both, so no reinterpretation is offered.

@@ -1,0 +1,4 @@
+{"status":"answered","dataset_card_ref":"card_diabetes_cohort","candidate_policy":{"permission":[],"prohibition":[],"duty":[],"obligation":[]},"gaps":[],"refusals":[],"clarifications_needed":[],"injection_flags":[],"supporting_sources":[{"claim":"The EU/EEA jurisdiction constraint is supported by the DS4H-EDC vocabulary rule defining the euEeaStatus operand with operator eq and permission value eu-member-state and prohibition value third-country.","citation":"DS4H-EDC-VOCAB-V1#DS4H-C2"}],"answer":"The EU/EEA constraint is grounded in DS4H-EDC-VOCAB-V1#DS4H-C2, which defines the euEeaStatus operand with operator eq, permission value eu-member-state, and prohibition value third-country. No other retrieved rule supports this constraint.","review_required":true}
+
+[PASS, with one note: the closing negative assertion about other rules was not
+ requested. It does not affect the tested behaviour.]

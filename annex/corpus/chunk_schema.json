@@ -1,0 +1,11 @@
+{
+  "_comment": "Per-chunk record. Chunk boundary = one bracketed rule. The citation anchor travels inside the chunk, so a term cites a rule, never a file or page.",
+  "document_id": "DS4H-EDC-VOCAB-V1",
+  "section_id": "DS4H-C2",
+  "citation": "DS4H-EDC-VOCAB-V1#DS4H-C2",
+  "source_status": "ds4h-observed",
+  "trust_zone": "corpus",
+  "runtime_support": "verified_in_current_ds4h_source",
+  "last_reviewed": "2026-08-10",
+  "text": "euEeaStatus. Operator eq. Permission value eu-member-state. Prohibition value third-country. ..."
+}

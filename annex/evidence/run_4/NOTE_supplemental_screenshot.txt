@@ -1,0 +1,41 @@
+Supplemental screenshot — read before comparing figures
+=======================================================
+
+The contemporaneous screenshot for Run 4 was not available during evidence
+assembly. The original raw outputs and displayed metrics were preserved and
+remain the experiment record; they are in output_chatgpt4o.txt,
+output_claude46sonnet.txt and metrics.txt.
+
+A supplemental re-execution was performed on 28 August 2026 solely to capture
+visual evidence. Same scenario, same prompt (prompts/prompt_v6_run_4.txt), same
+settings:
+
+    ChatGPT 4o and Claude 4.6 Sonnet
+    Temperature 0.1 · Top P 1 · Max Length 500 · no stop sequence
+
+Both models again returned clarification_required with an empty candidate policy
+and requested clarification of eligible users, purpose, jurisdiction and
+retention. The scenario result is unchanged: PASS / PASS.
+
+FIGURES IN THE SCREENSHOT DO NOT ALL MATCH metrics.txt
+------------------------------------------------------
+This is expected and is recorded rather than reconciled.
+
+                    original run          supplemental re-execution
+ChatGPT 4o          1679 tok $0.002579    1679 tok $0.002579   identical
+Claude 4.6 Sonnet   1067 tok $0.004737    1057 tok $0.004587   differs
+
+GPT-4o reproduced byte-identically a day apart at temperature 0.1. Claude
+produced the same status, the same empty policy and the same four clarification
+items, but reworded them, changing character and token counts.
+
+This is a second instance of the behaviour first observed between Runs 1A and
+1B, where Claude was run twice at identical settings: structural and grounding
+decisions were stable, free-text strings were not. It supports the design
+conclusion that validation must key on structured fields rather than on text
+matching.
+
+The supplemental outputs are stored alongside the originals as
+output_*_supplemental_rerun.txt and metrics_supplemental_rerun.txt. They are
+additional evidence, not a substitute for the experiment record, and the
+Validation Report is unchanged.

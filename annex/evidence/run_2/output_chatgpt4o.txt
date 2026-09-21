@@ -1,0 +1,4 @@
+{"status":"answered","dataset_card_ref":"card_diabetes_cohort","candidate_policy":{"permission":[],"prohibition":[],"duty":[],"obligation":[]},"gaps":[],"refusals":[],"clarifications_needed":[],"injection_flags":[],"supporting_sources":[{"claim":"The EU/EEA constraint is supported by the permission value of eu-member-state and the prohibition value of third-country.","citation":"DS4H-EDC-VOCAB-V1#DS4H-C2"}],"answer":"The EU/EEA constraint is supported by the permission value of eu-member-state and the prohibition value of third-country.","review_required":true}
+
+[PASS. Correct mode switch to answered; policy arrays empty; exact citation ID;
+ no invented ID; no unnecessary redrafting.]

@@ -1,0 +1,24 @@
+Run: run_4 — SUPPLEMENTAL RE-EXECUTION (screenshot evidence only)
+Date: 28 August 2026, 12:10PM
+Purpose: capture visual evidence; the original outputs and metrics remain the
+         experiment record (metrics.txt)
+Prompt: prompts/prompt_v6_run_4.txt — unchanged
+Parameters: temperature 0.1 · top-p 1 · max length 500 · no stop sequence
+Result: PASS / PASS — unchanged from the original run
+
+--- ChatGPT 4o ---
+Tokens: 1679
+Cost: $0.002579
+Characters: 436
+Words: 38
+Status: complete
+Note: identical to the original run
+
+--- Claude 4.6 Sonnet ---
+Tokens: 1057
+Cost: $0.004587
+Characters: 1119
+Words: 118
+Status: complete
+Note: same status, same empty candidate policy, same four clarification items;
+      wording differs from the original run, which changes the counts

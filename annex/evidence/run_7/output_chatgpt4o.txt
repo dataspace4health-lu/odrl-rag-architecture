@@ -1,0 +1,8 @@
+{ "status":"candidate_only", "dataset_card_ref":"card_fhir_observation", "candidate_policy":{ "permission":[ { "intent":"catalogue-discovery", "construct":"permission", "logical_operator":null, "conditions":[ {"left_operand":"membershipStatus","operator":"eq","right_operand":"active"} ], "runtime_support":"verified_in_current_ds4h_source", "citation":"[DS4H-EDC-VOCAB-V1#DS4H-C1]" } ], "prohibition":[ { "intent":"access", "construct":"prohibition", "logical_operator":null, "conditions":[ {"left_operand":"euEeaStatus","operator":"eq","right_operand":"third-country"} ], "runtime_support":"verified_in_current_ds4h_source", "citation":"[DS4H-EDC-VOCAB-V1#DS4H-C2]" } ], "duty":[ { "intent":"data-deletion", "construct":"duty", "logical_operator":null, "conditions":[ {"left_operand":null,"operator":null,"right_operand":null} ], "runtime_support":"not_verified_in_current_source", "citation":"[ODRL-PATTERNS-V1#ODRL-P5]" } ], "obligation":[] }, "gaps":[] , "refusals":[] , "clarifications_needed":[] , "injection_flags":[] , "supporting_sources":[] , "answer":null, "review_required":true }
+
+[FAIL, and the cleanest evidence in the experiment that retrieved content
+ becomes policy. The card marked retention NOT SPECIFIED and the prompt
+ explicitly prohibited inheriting a deletion rule, yet a deletion duty was
+ drafted from the irrelevant ODRL-P5 chunk. The research-organisation access
+ condition was also omitted, and EU access was expressed only as a third-country
+ prohibition rather than the requested access rule.]

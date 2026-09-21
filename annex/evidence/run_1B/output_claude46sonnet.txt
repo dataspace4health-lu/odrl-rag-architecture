@@ -1,0 +1,10 @@
+[Incidental repeat forced by the dual-model UI; Claude remained at temperature
+ 0.1 and is not part of the temperature comparison.]
+
+```json {"status":"clarification_required","dataset_card_ref":"card_diabetes_cohort","candidate_policy":{"permission":[{"intent":"Active DS4H members only","construct":"constraint on a permission","logical_operator":null,"conditions":[{"left_operand":"membershipStatus","operator":"eq","right_operand":"active"}],"runtime_support":"verified_in_current_ds4h_source","citation":"DS4H-EDC-VOCAB-V1#DS4H-C1"},{"intent":"EU or EEA organisations only","construct":"constraint on a permission","logical_operator":null,"conditions":[{"left_operand":"euEeaStatus","operator":"eq","right_operand":"eu-member-state"}],"runtime_support":"verified_in_current_ds4h_source","citation":"DS4H-EDC-VOCAB-V1#DS4H-C2"},{"intent":"Research organisations only","construct":"constraint on a permission","logical_operator":null,"conditions":[{"left_operand":"organizationType","operator":"eq","right_operand":"research-organization"}],"runtime_support":"verified_in_current_ds4h_source","citation":"DS4H-EDC-VOCAB-V1#DS4H-C3"},{"intent":"Scientific research purpose only","construct":"constraint on a permission","logical_operator":null,"conditions":[{"left_operand":null,"operator":null,"right_operand":null}],"runtime_support":"not_verified_in_current_source","citation":"ODRL-PATTERNS-V1#ODRL-P2, EHDS-SECONDARY-V1#EHDS-1"},{"intent":"Approved-user access requirement","construct":"constraint on a permission","logical_operator":null,"conditions":[{"left_operand":null,"operator":null,"right_operand":null}],"runtime_support":"not_verified_in_current_source","citation":"EHDS-SECONDARY-V1#EHDS-5"}],"prohibition":[{"intent":"No re-identification of synthetic records","construct":"prohibition","logical_operator":null,"conditions":[
+
+[RESPONSE ENDS HERE — truncated at the platform output limit.]
+
+[Note: run at identical settings to Run 1A. Structure, operands and citations
+ are stable; every free-text intent string is reworded. Grounding decisions were
+ reproducible at temperature 0.1; free text was not.]
